@@ -36,7 +36,7 @@ namespace _1
             }
             catch (VoroninException e)
             {
-                MyLog.log("Ошибка: " + e.Message);
+                MyLog.log("Error: " + e.Message);
             }
             MyLog.write();
             Console.ReadKey();
